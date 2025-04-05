@@ -1,0 +1,39 @@
+/* Chatbot container to center the chatbot */
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #F0F8FF;  /* Light blue background */
+}
+
+/* Style for the chatbot button */
+.chatbot-button {
+  background-color: #4FC3F7;  /* Light blue color */
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;  /* Space above the button */
+  align-self: center;  /* Ensure the button is centered */
+  transition: background-color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for the button */
+.chatbot-button:hover {
+  background-color: #0277BD; /* Darker blue when hovered */
+}
+
+/* Styling for initial message container */
+.message-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message-container p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
