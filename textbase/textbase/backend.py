@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
-from textbase.message import Message
+from textbase.textbase.message import Message
 from dotenv import load_dotenv
 import os
 from fastapi.middleware.cors import CORSMiddleware
