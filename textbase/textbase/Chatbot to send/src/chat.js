@@ -21,7 +21,7 @@ const handleSendMessage = async () => {
     setUserInput("");
 
     try {
-      const response = await axios.post("http://localhost:4000/chat", { messages: newMessages });
+      const response = await axios.post("https://chatbot-pro-41d70c5b0e1f.herokuapp.com/chat", { messages: newMessages });
       const botResponse = response.data.botResponse;
       const content = botResponse.content;
 
