@@ -1,6 +1,6 @@
 import textbase
 from textbase.textbase.message import Message
-from textbase import models
+from textbase.textbase import models
 import os
 from typing import List
 import openai
