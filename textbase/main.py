@@ -10,7 +10,7 @@ import re
 import requests
 
 # Load your OpenAI API key
-models.OpenAI.api_key = "" #api
+models.OpenAI.api_key = "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" #api
 # or from environment variable:
 # models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
