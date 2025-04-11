@@ -43,7 +43,7 @@ async def read_root():
     :return: The content of the "index.html" file located in the "textbase/frontend" directory is being
     returned.
     """
-    with open("textbase/Chatbot to send/build/index.html") as f:
+    with open("textbase/textbase/Chatbot to send/build/index.html") as f:
         return f.read()
 
 class Message(BaseModel):
