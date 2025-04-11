@@ -25,6 +25,7 @@ if main_dir not in sys.path:
 app = FastAPI()
 
 origins = [
+    "https://chatbot-pro-41d70c5b0e1f.herokuapp.com/",
     "http://localhost:3000",
     "http://localhost:4000",
     "http://localhost:5173",
