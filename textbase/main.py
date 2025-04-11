@@ -1,5 +1,5 @@
 import textbase
-from textbase.message import Message
+from textbase.textbase.message import Message
 from textbase import models
 import os
 from typing import List
