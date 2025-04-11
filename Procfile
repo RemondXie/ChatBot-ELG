@@ -1,2 +1,2 @@
-web: gunicorn textbase.backend:app
+web: gunicorn backend:app
 
