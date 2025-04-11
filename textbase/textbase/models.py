@@ -1,6 +1,6 @@
 import openai
 
-from textbase.message import Message
+from textbase.textbase.message import Message
 
 class OpenAI:
     api_key = None
