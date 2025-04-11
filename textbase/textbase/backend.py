@@ -15,7 +15,7 @@ from pydantic import BaseModel
 logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
-file_path = os.environ.get("FILE_PATH", "../main.py")
+file_path = os.environ.get("FILE_PATH", "textbase/main.py")
 main_dir = os.path.dirname(os.path.abspath(file_path))
 if main_dir not in sys.path:
     sys.path.insert(0, main_dir)
