@@ -56,7 +56,7 @@ def extract_patient_symptom_from_history(message_history: List[Message]) -> str:
                 return match1.group(3).strip()
     return ""
 
-@textbase.chatbot("talking-bot")
+@textbase.textbase.chatbot("talking-bot")
 def on_message(message_history: List[Message], state: dict = None, state2: dict = None):
     """Medical Assistant Chatbot logic
 #     message_history: List of user messages
