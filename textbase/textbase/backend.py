@@ -111,6 +111,6 @@ async def chat(messages: List[Message], state: dict = None):
 # Mount the static directory (frontend files)
 app.mount(
     "/",
-    StaticFiles(directory="textbase/Chatbot to send/build", html=True),
+    StaticFiles(directory="textbase/textbase/Chatbot to send/build", html=True),
     name="static",
 )
