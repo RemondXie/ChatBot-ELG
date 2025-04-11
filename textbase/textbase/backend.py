@@ -16,7 +16,6 @@ logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
-from .message import Message
 
 app = FastAPI()
 
